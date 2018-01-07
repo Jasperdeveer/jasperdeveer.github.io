@@ -121,7 +121,7 @@ footer {
   width: 100%;
   display: block;
   float: left;
-  background-color: black;
+  background-color: #1b1b1b;
   color: white;
   text-align: center;
   /* position: fixed;
@@ -179,6 +179,7 @@ footer a {
   }
 
   section {
+    clear: both;
     width: 100%;
   }
   iframe {
