@@ -223,8 +223,9 @@ footer a {
   section {
     width: 100vw;
     padding: 10px;
-    display: block;
-    float: left;
+  }
+  aside{
+    clear: both;
   }
   iframe {
     width: 100%;
