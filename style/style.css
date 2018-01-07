@@ -3,17 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
-h4{
+
+h4 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 2em;
   color: white;
 }
-h3{
+
+h3 {
   text-transform: uppercase;
   color: #00278a;
   padding-top: 15px;
 }
+
 header {
   background-image: url(../img/header6.jpg);
   background-position: center;
@@ -30,6 +33,7 @@ header h1 {
 header p {
   padding: 0px 0px 50px 0px;
 }
+
 /* navigatie code van https://codepen.io/jo_Geek/pen/xgbaEr, de checkbox truc.*/
 
 nav {
@@ -69,49 +73,50 @@ nav>.nav-links>a.active {
 nav>#nav-check {
   display: none;
 }
-p#welcome{
-  font-size: 24px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid white;
-  padding: 40px;
-  background-color: lightgrey;
-}
-aside{
+aside {
   background-image: url(../img/devliert.jpg);
   background-size: cover;
-  width: 400px;
-  padding: 10px;
   display: block;
-  float: right;
   color: white;
 }
-iframe{
-  margin: 5px;
-}
-table{
-  width: 100%;
-}
-td,th{
-  text-align: center;
-}
-article{
-  display: block;
-  float: left;
-}
-.matches{
-  width: 100%;
-  color: red;
-}
-
-#match-info{
+#match-info {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
   background-color: black;
   padding: 2px;
 }
+section{
+  display: block;
+  float: left;
+}
 
-footer{
+p#welcome {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  padding: 40px;
+  background-color: lightgrey;
+}
+
+iframe {
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+}
+
+article {
+  display: block;
+  float: left;
+}
+
+footer {
   clear: both;
   width: 100%;
   display: block;
@@ -123,14 +128,15 @@ footer{
   bottom: 0; */
   margin-top: 20px;
 }
-footer p{
+
+footer p {
   padding: 10px 0px;
 }
-footer a{
+
+footer a {
   color: #009999;
   text-decoration: none;
 }
-
 
 @media screen and (min-width: 1441px) {
   /*desktop*/
@@ -141,94 +147,89 @@ footer a{
     display: block;
     padding: 0px 50px;
   }
-  section{
+
+    aside{
+      margin-left: 20px;
+      padding: 20px;
+        float: left;
+      width: 400px;
+    }
+
+  section {
     /* background-color: red; */
     width: 920px;
     display: block;
     float: left;
     margin-bottom: 60px;
   }
-
 }
 
 @media screen and (min-width: 641px) and (max-width:1440px) {
   /*tablet*/
-  #container{
+  #container {
     /* background-color: red; */
     width: 100vw;
   }
+
   aside{
-    width: 767px;
-    float: none;
+    clear: both;
+    display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 60vw;
   }
-  section{
+
+  section {
     width: 100%;
   }
-  iframe{
+  iframe {
     display: block;
     float: left;
     width: 100%;
   }
-  article{
+  article {
     display: block;
     float: left;
     width: 30vw;
     margin: 1.5vw;
   }
-
 }
 
-@media screen and (min-width:320px) and (max-width:650px) {
+@media screen and (min-width:320px) and (max-width:640px) {
   /* mobile */
-header h1{
-  font-size: 1.5em;
-}
-header p{
-  font-size: .7em;;
-}
-
+  header h1 {
+    font-size: 1.5em;
+  }
+  header p {
+    font-size: .7em;
+  }
   #container {
     /* background-color: yellow; */
     width: 100vw;
   }
-  aside{
-    background-image: url(../img/devliert.jpg);
-    /* bron afbeelding: https://www.fcdbfans.nl/img/paginas/devliert_huidig.jpg */
-    background-size: cover;
-    width: 100vw;
-    padding: 10px;
-    display: block;
-    float: left;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  table{
+
+  table {
     width: 100%;
   }
-  td,th{
+  td, th {
     text-align: center;
   }
-  #match-info{
+  #match-info {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
     background-color: black;
     padding: 2px;
   }
-  section{
+  section {
     width: 100vw;
     padding: 10px;
     display: block;
     float: left;
   }
-  iframe{
+  iframe {
     width: 100%;
   }
-  p#welcome{
+  p#welcome {
     margin: 0px;
   }
 }
@@ -278,4 +279,5 @@ header p{
     overflow-y: auto;
   }
 }
+
 /* einde querry */
