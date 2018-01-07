@@ -175,7 +175,7 @@ footer a {
     clear: both;
     display: block;
     margin: 0 auto;
-    width: 60vw;
+    width: 60vw;    padding: 20px;
   }
 
   section {
@@ -227,6 +227,7 @@ footer a {
   }
   aside{
     clear: both;
+    padding: 20px;
   }
   iframe {
     width: 100%;
