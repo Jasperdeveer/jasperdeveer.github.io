@@ -132,7 +132,7 @@ footer a{
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   /*desktop*/
   #container {
     width: 1440px;
@@ -151,14 +151,14 @@ footer a{
 
 }
 
-@media screen and (min-width: 641px) and (max-width:1439px) {
+@media screen and (min-width: 641px) and (max-width:1440px) {
   /*tablet*/
   #container{
     /* background-color: red; */
     width: 100vw;
   }
   aside{
-    width: 640px;
+    width: 767px;
     float: none;
     margin: 0 auto;
     margin-top: 20px;
@@ -181,7 +181,7 @@ footer a{
 
 }
 
-@media screen and (min-width:320px) and (max-width:640px) {
+@media screen and (min-width:320px) and (max-width:650px) {
   /* mobile */
 header h1{
   font-size: 1.5em;
@@ -233,7 +233,7 @@ header p{
   }
 }
 
-@media (max-width:640px) {
+@media (max-width:600px) {
   nav>.nav-btn {
     display: inline-block;
     position: absolute;
@@ -279,10 +279,3 @@ header p{
   }
 }
 /* einde querry */
-
-
-
-
-/* Media querys goed maken
-zorgen dat mobiel werkt
-inleveren */
