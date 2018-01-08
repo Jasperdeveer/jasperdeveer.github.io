@@ -188,6 +188,7 @@ p {
 
 #werkgever-col {
   background: rgba(50, 153, 154, 0.4);
+  height: 1000px;
 }
 
 #werkgever-col:hover {
@@ -196,6 +197,7 @@ p {
 
 #cursist-col {
   background: rgba(241, 128, 57, 0.4);
+    height: 1000px;
 }
 
 #cursist-col:hover {
@@ -204,6 +206,7 @@ p {
 
 #robot-col {
   background: rgba(126, 122, 120, 0.4);
+    height: 1000px;
 }
 
 #robot-col:hover {
