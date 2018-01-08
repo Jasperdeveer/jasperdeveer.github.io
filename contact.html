@@ -128,15 +128,6 @@
     </div>
   </footer>
 
-
-
-
-
-
-
-
-
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
@@ -145,6 +136,9 @@
       $('#jouw_select_element').on('change', function() {
         if ($(this).val() == 'robot') {
           $('#jouw_input_text_veld').val('blieb blieb robot!');
+          }
+          else {
+            $('#jouw_input_text_veld').val('');
         }
       })
     });
