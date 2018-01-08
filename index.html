@@ -3,126 +3,159 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HOME | FC Den Bosch</title>
-  <link href="style/style.css" rel="stylesheet" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>HOME | Robot Academie</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="/styles/style.css" rel="stylesheet" />
+  <link href="/styles/index.css" rel="stylesheet" />
 </head>
 
 <body>
   <header>
-    <h1>FC Den Bosch</h1>
-    <p>
-      home of the blue white army
-    </p>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+  <img id="logo-header" alt="Brand" src="/img/header-icon.png">
+</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="menu-item actief"><a href="index.html">home</a></li>
+            <li class="menu-item "><a href="about.html">over ons</a></li>
+            <li class="menu-item"><a href="cursus.html">cursussen</a></li>
+            <li class="menu-item"><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row" id="header-div">
+      <div class="col-12-12 center">
+        <div id="header-text">
+          <p id="slogan">
+            Houd je werk
+          </p>
+          <h1 id="title">UP<span class="accent-color">-</span>TO<span class="accent-color">-</span>DATE<span class="accent-color blink_me">_</span></h1>
+          <p id="intro-text" class="center"> Robots nemen steeds meer repeterende, vaak zware of saaie werkzaamheden over. Dit zorgt ervoor dat werknemers nieuwe mogelijkheden krijgen, waaronder het aansturen van de robots. Robotacademie helpt bedrijven zich voor te bereiden op de toekomst
+            doormiddel van 2 dagen theorie, praktijk en online training over het begeleiden en aansturen van robots.
+          </p>
+          <button type="button" class="btn btn-primary btn-header">Neem Contact Op</button>
+          <button type="button" class="btn btn-secondary btn-header">Onze Trainingen</button>
+        </div>
+      </div>
+    </div>​
+
   </header>
-  <nav>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+
+
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/robotarm.png" class="img-responsive" />
+      </div>
+      <div class="col-sm-8" id="over-ons-introtext">
+        <h3>Be a part of the future</h3>
+        <p>Robots nemen steeds meer repeterende, vaak zware of saaie werkzaamheden over. Dit zorgt ervoor dat werknemers nieuwe mogelijkheden krijgen, waaronder het aansturen van de robots. De Robotacademie helpt bedrijven zich voor te bereiden op de toekomst
+          door middel van 2 dagen theorie, praktijk en een online training over het begeleiden en aansturen van robots.
+          <span id="vraag-overons"> Maar, wat betekent de Robot dan voor mij?</span>
+        </p>
+      </div>
     </div>
-    <input type="checkbox" id="nav-check">
-    <div class="nav-links">
-      <a href="index.html" class="active">home</a>
-      <a href="#">wedstrijden</a>
-      <a href="#">selectie</a>
-      <a href="#">contact</a>
+
+    <div class="row" id="drieling">
+
+      <div class="col-sm-4" id="werkgever-col">
+        <div class="driedeling-blok">
+          <img src="img/icons/iconwerkgever.png" class="img-responsive driedeling-icon" alt="icoon werkgever" />
+          <h3> Werkgever </h3>
+          <p>
+            Door middel van deze training zal u om leren gaan met uw nieuwe digitale collega, de robot. De training zal zorgen voor een betere positie op de arbeidsmarkt. U zal door de training beter werk kunnen uitvoeren, de robots zullen namelijk het dull,dirty
+            & dangerous work verrichten. Graag leren samenwerken met robots?
+          </p>
+          <button type="button" class="btn btn-primary btn-driedeling">Lees meer</button>
+        </div>
+      </div>
+
+      <div class="col-sm-4" id="cursist-col">
+        <div class="driedeling-blok">
+          <img src="img/icons/iconmedewerker.png" class="img-responsive driedeling-icon" alt="icoon cursist" />
+        <h3> Cursist </h3>
+        <p>
+          Aangenaam kennis te maken! Ik ben een robot van Smart Robotics. Ik ben een bijdehand typetje! Als ik iets geleerd heb vergeet ik dit nooit meer. Ik houd van regelmaat en hoef geen pauzes en ook niet op vakantie. Ik zal 24 uur per dag, beschikbaar zijn
+          om aan uw zijde te werken. Ik word namelijk graag aangestuurd door even bekwamen operator.
+        </p>
+        <button type="button" class="btn btn-primary btn-driedeling">Lees meer</button>
+      </div>
     </div>
-  </nav>
 
-  <div id="container">
-    <section>
-      <!-- <h2>HOME</h2> -->
-
-      <p id="welcome">
-        Welkom op de vernieuwde website van FC Den Bosch. Op deze website kunt u informatie vinden over de selectie, over het speelschema en op de homepagina blijft u op de hoogte van het laatste nieuws.
-      </p>
-
-      <article>
-        <h3>FC DEN BOSCH IN BESLOTEN OEFENDUEL VOORBIJ FC EINDHOVEN</h3>
+      <div class="col-sm-4" id="robot-col">
+        <div class="driedeling-blok">
+          <img src="img/icons/iconrobot.png" class="img-responsive driedeling-icon" alt="icoon robot" />
+        <h3> Robot </h3>
         <p>
-          FC Den Bosch heeft vanmiddag in Sint-Michielsgestel een besloten oefenduel afgewerkt tegen FC Eindhoven, ter voorbereiding op de tweede seizoenhelft. Trainer/coach Wil Boessen, die afgelopen week zijn contract verlengde tot de zomer van 2019, zag zijn
-          ploeg een 1-0 achterstand ombuigen in een 3-1 voorsprong door treffers van Dennis Kaars en Sven Blummel (2x).
+          Aangenaam kennis te maken! Ik ben een robot van Smart Robotics. Ik ben een bijdehand typetje! Als ik iets geleerd heb vergeet ik dit namelijk nooit meer. Ik houd van regelmaat en hoef geen pauzes en ook niet op vakantie. Ik hoef zelfs niet naar
+          het toilet! Ik zal 24 uur per dag, 7 dagen in de week beschikbaar zijn om aan uw zijde te werken. Ik word natuurlijk graag aangestuurd door even bekwamen operator.
+        </p>
+        <button type="button" class="btn btn-primary btn-driedeling">Lees meer</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6" id="cursussen">
+        <h2>Cursussen</h2>
+        <p> Uw werknemers kunnen trainingen volgen aan de Robotacademie. Door middel van deze trainingen zal in de toekomst de samenwerking tussen mens en robot in uw bedrijf up-to date blijven. Ook zullen uw werknemers langer in goede gezondheid kunnen doorwerken.
+          Hierdoor zal uw bedrijf de mogelijkheid krijgen in de toekomst productiever te kunnen werken.
         </p>
 
         <p>
-          FC Eindhoven maakte buiten de eerste ook de laatste treffer van het duel en bepaalde zodoende de eindstand op 3-2 in Bosch’ voordeel, na een 1-1 ruststand. Niek Vossebelt miste namens de Bosschenaren nog een strafschop voor rust. Wil Boessen maakte vanmiddag
-          van de mogelijkheid gebruik om veel jonge spelers tijdens de tweede helft aan het werk te zien.
+
+          De training is bedoeld voor productiemedewerkers en logistiekmedewerkers die nu of in de nabije toekomst in aanraking zullen komen met het samenwerken met robots. Een training kost ongeveer 300 euro, deze training bestaat uit 2 dagen theorie, praktijk
+          en online training. Bij een training laten wij uw werknemers kennismaken met hun nieuwe digitale collega’s om uw werknemers gerust te stellen en te motiveren. De training zal plaats vinden bij onze werkplaats gelegen in Best of bij uw bedrijf.
         </p>
 
-        <p>
-          FC Den Bosch hervat de competitie op vrijdag 12 januari aanstaande (20.00 uur) met de thuiswedstrijd in Stadion De Vliert tegen Almere City FC.
-        </p>
-        <!-- nieuwsbericht van www.fcdenbosch.nl -->
-      </article>
+        <h4 id="quote">
+          “Als werkgever laat je sociaalwerknemerschap zien, je laat zien dan je de verantwoordelijkheid neemt om je mensen te laten groeien, leren en om je mensen toekomstproof te maken.”<br /><span class="quotename">- Josje Verbeeten</span>
+        </h4>
+        <button type="button" class="btn btn-primary btn-readmore" id="btn-overons">Lees meer</button>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/foto2.jpg" / class="img-responsive">
+      </div>
 
-      <article>
-        <h3>Samenvatting FC Den Bosch - Fortuna Sittard</h3>
-        <p>
-          Bekijk nu de samenvatting van het duel van de plaatselijke FC tegen de huidige nummer 2 van de ranglijst, Fortuna Sittard. De wedstrijd is gespeeld op 15 december 2017. De eindstand van de wedstrijd was 2-4 in het voordeel van de club uit Limburg. De
-          bezoekers kwamen niet om te voetballen, maar waren al vanaf de eerse minuten tijd aan het rekken. Zo kwam de Bossche ploeg niet in de wedstrijd.
-        </p>
-        <figure>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gRI6niaUHSc?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-          <figcaption>Bron: Youtube/Jupiler League</figcaption>
-        </figure>
-
-      </article>
-      <article>
-        <h3>Ruben Rodrigues komt over van Gemert</h3>
-        <p>
-          Ondanks al het gezeik met de supporters hebben we ook nog positief nieuws, we hebben de tallentvolle Ruben Rodrigues overgenomen van VV Gemert. De 21 jarige speler heeft in het verleden ook al bij de Bossche hoofdmacht gespeeld. In de jaren dat hij afwezig
-          was heeft hij veel getraint en hij is helemaal klaar om de grote stap te maken. Hij heeft gevoetbald bij Wilhelmina Boys uit Best en is daarna verhuisd naar Gemert.
-        </p>
-        <p>
-          Volgens trainer WIl Boessen is Ruben een zeer tallentvolle vleugelspeler die op meerdere plaatsen uit de voeten kan. Hij valt op door zijn sterke individuele actie. Wij wensen hem veel succes toe bij FC Den Bosch.
-        </p>
-      </article>
-
-    </section>
-    <aside>
-        <h4>Volgende wedstrijd</h4>
-        <table id="next-match">
-          <tr>
-            <td>
-              <img src="img/clubs/fcdenbosch.png" alt="fcdenbosch" />
-              <!-- bron afbeelding: www.fcdenbosch.nl -->
-            </td>
-            <td>
-              vs.
-            </td>
-            <td>
-              <img src="img/clubs/almerecity.png" alt="almerecity" />
-              <!-- bron afbeelding: http://www.almerecity.nl/ -->
-            </td>
-          </tr>
-          <tr>
-            <td>
-              FC Den Bosch
-            </td>
-            <td>
-
-            </td>
-            <td>
-              Almere City FC
-            </td>
-          </tr>
-        </table>
-        <p id="match-info">
-          Vrijdag 12 januari<br /> 20.00, Stadion De Vliert
-        </p>
-    </aside>
+    </div>
   </div>
-  <div></div>
+
   <footer>
-    <p>
-      website door <a href="https://www.jasperdeveer.nl">Jasper de Veer</a>
-    </p>
+    <div class="row" id="footer">
+      <div class="col-sm-12">
+        <a href="https://www.facebook.com/RobotAcademie/" target="_blank"><img src="/img/social/002-facebook.png" alt="logo-facebook" class="socialicon"></a>
+        <a href="https://www.instagram.com/robotacademie/" target="_blank"><img src="/img/social/003-instagram.png" alt="logo-instagram" class="socialicon"></a>
+        <a href="https://twitter.com/RobotAcademie?s=08" target="_blank"><img src="/img/social/001-twitter.png" alt="logo-twitter" class="socialicon"></a>
+      </div>
+      <div class="col-sm-12">
+        <p id="footertext">
+          2017 Robot Academie | Alle Rechten Voorbehouden
+        </p>
+      </div>
+    </div>
   </footer>
-  <!-- <script type="text/javascript">
-alert("Site is nog niet af!");
-</script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

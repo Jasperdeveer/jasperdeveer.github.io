@@ -1,0 +1,6 @@
+header {
+  background-image: url("../img/header-color.png");
+  background-position: bottom;
+  height: 135vh;
+  min-height: 830px;
+}
