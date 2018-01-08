@@ -127,9 +127,12 @@ h3{
 .opacity {
   text-align: center;
 }
+.gobackbutton{
+  color: white;
+}
 
 .btn-driedeling {
-  padding: 10px 50px;
+  padding: 10px 20px;
   background: transparent;
   border: 2px solid white;
   color: white;
@@ -182,13 +185,9 @@ p {
   padding-top: 20px;
 }
 
-.driedeling-blok{
-  height: 100%;
-}
-
 #werkgever-col {
   background: rgba(50, 153, 154, 0.4);
-  height: 1000px;
+  height: 750px;
 }
 
 #werkgever-col:hover {
@@ -197,7 +196,7 @@ p {
 
 #cursist-col {
   background: rgba(241, 128, 57, 0.4);
-    height: 1000px;
+    height: 750px;
 }
 
 #cursist-col:hover {
@@ -206,7 +205,7 @@ p {
 
 #robot-col {
   background: rgba(126, 122, 120, 0.4);
-    height: 1000px;
+    height: 750px;
 }
 
 #robot-col:hover {
