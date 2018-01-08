@@ -8,6 +8,13 @@ header {
   margin-top: 0px;
 }
 
-.form-element{
-  width: 450px;
+#jouw_input_text_veld{
+height: 300px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
