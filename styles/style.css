@@ -28,6 +28,9 @@ h3{
   width: 100%;
   margin: 150px 0px;
 }
+.top-row{
+  margin-top: 75px;
+}
 #header-div{
   margin-top: 0px;
 }
@@ -65,6 +68,10 @@ h3{
 .center{
   text-align: center;
   margin: 0 auto;
+}
+.cursus-description{
+  font-size: .8em;
+  font-style: italic;
 }
 
 #header-text {
