@@ -5,31 +5,32 @@ header {
   min-height: 830px;
 }
 
+.driedeling-icon{
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 @media (min-width: 576px) {
   #drieling {
-    height: 850px;
     overflow: hidden;
   }
 }
 
 @media (min-width: 768px) {
   #drieling {
-    height: 900px;
     overflow: hidden;
   }
 }
 
 @media (min-width: 992px) {
   #drieling {
-    height: 850px;
     overflow: hidden;
   }
 }
 
 @media (min-width: 1200px) {
   #drieling {
-    height: 800px;
     overflow: hidden;
   }
 }
@@ -41,5 +42,8 @@ header {
   }
   header {
     height: 140vh;
+  }
+  .btn-readmore{
+    margin-bottom:75px;
   }
   }

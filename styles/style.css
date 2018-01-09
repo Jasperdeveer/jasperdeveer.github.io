@@ -190,10 +190,7 @@ p {
   padding: 0px;
 }
 
-.driedeling-icon{
-  padding: 0px 100px;
-  padding-top: 20px;
-}
+
 
 #werkgever-col {
   background: rgba(50, 153, 154, 0.4);
@@ -260,6 +257,10 @@ p {
 @media (min-width: 768px) {
   #logo-header {
     margin-left: 100px;
+  }
+  .driedeling-icon{
+    padding: 0px 50px;
+    padding-top: 20px;
   }
 }
 

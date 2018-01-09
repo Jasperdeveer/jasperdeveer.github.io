@@ -77,19 +77,22 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  #slogan-overons{
-    font-size:2em;
-    margin:0 auto;
+#header-text{
+      margin: 0 auto;
+      text-align: center;
+    }
+    #slogan-overons{
+      font-size:2em;
+      margin:0 auto;
+    }
+    #title-overons{
+      font-size:2em;
+      margin:0 auto;
+    }
+
+    #header-overons{
+      font-size: 1em;
+      margin-bottom:20px;
+      letter-spacing: 5px;
   }
-  #title-overons{
-    font-size:2em;
-    margin:0 auto;
-  }
-
-  #header-overons{
-    font-size: 1em;
-
-
-
-
   }
