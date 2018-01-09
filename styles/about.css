@@ -3,6 +3,22 @@ header {
     height: 150vh;
     background-size: cover;
   }
+  @media (min-width: 576px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 992px) {
+
+  }
+
+  @media (min-width: 1200px) {
+
+  }
+
 
 #samenwerking{
   margin: 100px 0px;
