@@ -295,7 +295,15 @@ p {
   }
   .navbar-collapse{
     margin-top: 60px;
+    width: 100%;
   }
+  #header-div{
+    padding: 0px;
+  }
+  .navbar-header{
+    width: 100%;
+  }
+
   #header-text {
     text-align: center;
     margin-top: 20vh;
