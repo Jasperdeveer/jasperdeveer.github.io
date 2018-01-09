@@ -17,6 +17,12 @@ h4{
   font-size: 2em;
 }
 
+#brand-name{
+  color: white;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
 .container{
   margin-top: 80px;
 }
@@ -39,7 +45,7 @@ h4{
 }
 
 #logo-header {
-  height: 50px;
+  height: 70px;
 }
 
 .navbar {
