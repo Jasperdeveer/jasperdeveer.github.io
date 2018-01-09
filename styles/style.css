@@ -258,10 +258,6 @@ p {
   #logo-header {
     margin-left: 100px;
   }
-  .driedeling-icon{
-    padding: 0px 50px;
-    padding-top: 20px;
-  }
 }
 
 @media (min-width: 992px) {
