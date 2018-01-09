@@ -13,6 +13,9 @@ h3{
   padding: 10px;
   border: 2px solid white;
 }
+h4{
+  font-size: 2em;
+}
 
 .container{
   margin-top: 80px;
@@ -150,6 +153,7 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #32999a;
+  margin: 0px;
 }
 
 p {
@@ -358,5 +362,6 @@ p {
   }
   h2 {
     margin-bottom: 5px;
+    margin-top: 20px;
   }
 }
