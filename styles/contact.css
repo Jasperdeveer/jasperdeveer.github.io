@@ -36,7 +36,12 @@ input,select{
     box-sizing: border-box;
 }
 #sendbtn{
-  margin: 100px;
+  margin: 20px 0px 100px 0px;
+  color: white;
+  background-color: #32999a;
+}
+#sendbtn:hover{
+  background-color: #267475;
 }
 
 address{
