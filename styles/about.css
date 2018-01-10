@@ -5,7 +5,13 @@ header {
     background-position: center;
   }
 #title-about{
-  color: pink;
+  font-size: 4em;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: #32999a;
+  padding: 10px;
+  margin: 50px 0px;
 }
 
   @media (min-width: 576px) {
@@ -123,7 +129,10 @@ header {
       line-height: 140px;
       font-weight: 400;
     }
+    .title{
+    margin-top: 220px;
+  }
     header{
-      height: 160vh;
+      height: 100vh;
     }
   }
