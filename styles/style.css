@@ -267,6 +267,16 @@ p {
   .title{
     font-size: 8em;
   }
+  .button-headerdiv{
+    display: block;
+    float: left;
+    margin: 0 auto;
+  }
+  .buttongroup{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
