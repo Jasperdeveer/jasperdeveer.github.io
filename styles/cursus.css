@@ -82,6 +82,9 @@
   }
 
   @media screen and (max-width: 768px) {
+    header {
+      height: 100vh;
+    }
 
     #title-cursussen{
       font-size:3em;

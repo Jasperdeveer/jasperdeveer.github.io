@@ -37,14 +37,22 @@ header {
 }
 @media screen and (max-width: 768px) {
   .btn-header{
-    /* background-color: red; */
-    margin-top: 30px;
-    margin-bottom: 0px;
+margin: 0 auto;
   }
   header {
-    height: 140vh;
+    height: 160vh;
   }
   .btn-readmore{
     margin-bottom:75px;
   }
+  #intro-text{
+    margin-bottom: 50px;
+  }
+  #header-div{
+    width: 100vw;
+  }
+  .button-headerdiv{
+    margin-bottom: 20px;
+  }
+
   }
