@@ -4,6 +4,10 @@ header {
     background-size: cover;
     background-position: center;
   }
+#title-about{
+  color: pink;
+}
+
   @media (min-width: 576px) {
 
   }
