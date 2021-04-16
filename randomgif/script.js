@@ -8,8 +8,8 @@ $(document).ready(function() {
 		baseURL: "https://api.giphy.com/v1/gifs/",
 		apiKey: "0UTRbFtkMxAplrohufYco5IY74U8hOes",
 		tag: "fail",
-		type: "morning",
-		rating: "pg"
+		type: "random",
+		rating: "pg-13"
 	};
 	// Target gif-wrap container
 	const $gif_wrap = $("#gif-wrap");
