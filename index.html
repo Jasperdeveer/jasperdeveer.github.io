@@ -1,166 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>CodePen - Random Gif Generator w/ Giphy API</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
 
-
-  <title>HOME | Robot Academie</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="/styles/style.css" rel="stylesheet" />
-  <link href="/styles/index.css" rel="stylesheet" />
 </head>
-
 <body>
-  <script>
-    alert("Deze website is een schoolopdracht.");
-  </script>
-  <header>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <span><img src="img/header-logo.png" id="logo-header" class="d-inline-block align-top" alt="Robot Academie logo">
-            <!-- <span id="brand-name">Robot Academie</span> --></span>
-          </a>
+<!-- partial:index.partial.html -->
+<div id="gif-wrap"></div>
+<div id="gif-logo"><img src="https://storage.googleapis.com/chydlx/codepen/random-gif-generator/giphy-logo.gif"/></div>
+<button id="new-gif">New Gif</button>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
 
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="menu-item actief"><a href="index.html">home</a></li>
-            <li class="menu-item "><a href="about.html">over ons</a></li>
-            <li class="menu-item"><a href="cursus.html">trainingen</a></li>
-            <li class="menu-item"><a href="contact.html">contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="row" id="header-div">
-      <div class="col-12-12 center">
-        <div id="header-text">
-          <p id="slogan">
-            Houd je werk
-          </p>
-          <h1 class="title">UP<span class="accent-color">-</span>TO<span class="accent-color">-</span>DATE<span class="accent-color blink_me">_</span></h1>
-          <p id="intro-text" class="center"> Robots nemen steeds meer repeterende, vaak zware of saaie werkzaamheden over. Dit zorgt ervoor dat werknemers nieuwe mogelijkheden krijgen, waaronder het aansturen van de robots. De Robotacademie helpt bedrijven zich voor te bereiden op de toekomst door middel van 2 dagen theorie, praktijk en een online training over het begeleiden en aansturen van robots.
-
-          </p>
-          <div class="buttongroup">
-            <div class="button-headerdiv">
-              <a href="contact.html"><button type="button" class="btn btn-primary btn-header">Neem Contact Op</button></a>
-            </div>
-            <div class="button-headerdiv">
-              <a href="cursus.html"><button type="button" class="btn btn-secondary btn-header">Onze Trainingen</button></a>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>​
-
-  </header>
-
-
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="img/robotarm.png" class="img-responsive" />
-      </div>
-      <div class="col-sm-8" id="over-ons-introtext">
-        <h4>Be a part of the future</h4>
-        <p>De Robotacademie is het dochterbedrijf van Smart Robotics, gelegen te Best. Smart Robotics is het uitzendbureau voor robots. Hier kunnen de robots ingehuurd worden om uw bedrijf te helpen met de innovatie automatisering. De Robotacademie verzorgt trainingen waarbij medewerkers samen leren werken met robots. Deze trainingen worden gebaseerd op de robotinstallatie bij uw bedrijf en zullen de samenwerking tussen mens en robot stimuleren en verbeteren.
-          <p id="vraag-overons"> Maar, wat betekent de robot dan voor mij?</p>
-        </p>
-      </div>
-    </div>
-
-    <div class="row" id="drieling">
-
-      <div class="col-sm-4" id="werkgever-col">
-        <div class="driedeling-blok">
-          <img src="img/icons/002-people-1-01.png" class="img-responsive driedeling-icon" alt="icoon werkgever" />
-          <h3> Werkgever </h3>
-          <p>
-            Graag uw bedrijf up-to-date houden in deze tijd vol veranderingen? Daarvoor heeft robotacademie de juiste trainingen. Uw personeel deel laten nemen aan een training zal uw bedrijf versnelde innovatie brengen en uw medewerkers tevreden houden. De trainingen bij de Robotacademie zorgen er dan ook voor dat uw bedrijf op rolletjes zal gaan lopen. Kies robotacademie.
-          </p>
-          <a href="werkgever.html"><button type="button" class="btn btn-default btn-driedeling">Lees meer</button></a>
-        </div>
-      </div>
-
-      <div class="col-sm-4" id="cursist-col">
-        <div class="driedeling-blok">
-          <img src="img/icons/003-brainstorming-01.png" class="img-responsive driedeling-icon" alt="icoon cursist" />
-          <h3> Medewerker </h3>
-          <p>
-            Door middel van deze training zal u om leren gaan met uw nieuwe digitale collega, de robot. De training zal zorgen voor een betere positie op de arbeidsmarkt. U zal door de training beter werk kunnen uitvoeren, de robots zullen namelijk het dull, dirty & dangerous work verrichten. Graag leren samenwerken met robots?
-          </p>
-          <a href="medewerker.html"><button type="button" class="btn btn-default btn-driedeling">Lees meer</button></a>
-        </div>
-      </div>
-
-      <div class="col-sm-4" id="robot-col">
-        <div class="driedeling-blok">
-          <img src="img/icons/004-settings-01.png" class="img-responsive driedeling-icon" alt="icoon robot" />
-          <h3> Robot </h3>
-          <p>
-            Aangenaam kennis te maken! Ik ben een robot van Smart Robotics. Ik ben een bijdehand typetje! Als ik iets geleerd heb, vergeet ik dit nooit meer. Ik houd van regelmaat, hoef geen pauzes en ga ook niet op vakantie! Ik zal 24 uur per dag beschikbaar zijn om aan uw zijde te werken. Ik word namelijk graag aangestuurd door even bekwame operator.
-          </p>
-          <a href="robot.html"><button type="button" class="btn btn-default btn-driedeling">Lees meer</button></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6" id="cursussen">
-        <h2>Trainingen</h2>
-        <p>
-          Uw werknemers kunnen trainingen volgen aan de Robotacademie. Door middel van deze trainingen zal in de toekomst de samenwerking tussen mens en robot in uw bedrijf up-to date blijven. Ook zullen uw werknemers langer in goede gezondheid kunnen doorwerken. Hierdoor krijgt uw bedrijf de mogelijkheid in de toekomst productiever te kunnen werken.
-        </p>
-        <p>
-          De training is bedoeld voor productiemedewerkers en logistiekmedewerkers die nu of in de nabije toekomst in aanraking zullen komen met het samenwerken met robots. Een training zal bestaan uit theorie, praktijk en een online training. Bij een training laten wij uw werknemers kennismaken met hun nieuwe digitale collega’s om uw werknemers gerust te stellen en te motiveren. De training zal plaats vinden bij onze werkplaats gelegen in Best of bij uw bedrijf.
-        </p>
-
-        <h4 id="quote">
-          “Als werkgever laat je sociaal werknemerschap zien, je laat zien dat je de verantwoordelijkheid neemt om je mensen te laten groeien, leren en om je mensen toekomstproof te maken.”<br /><span class="quotename">- Josje Verbeeten</span>
-        </h4>
-        <a href="cursus.html"><button type="button" class="btn btn-primary btn-readmore">Lees meer</button></a>
-      </div>
-      <div class="col-sm-6">
-        <img src="img/robotacademie-1.jpg" / class="img-responsive">
-      </div>
-
-    </div>
-  </div>
-
-  <footer>
-    <div class="row" id="footer">
-      <div class="col-sm-12">
-        <a href="https://www.facebook.com/RobotAcademie/" target="_blank"><img src="/img/social/002-facebook.png" alt="logo-facebook" class="socialicon"></a>
-        <a href="https://www.instagram.com/robotacademie/" target="_blank"><img src="/img/social/003-instagram.png" alt="logo-instagram" class="socialicon"></a>
-        <a href="https://twitter.com/RobotAcademie?s=08" target="_blank"><img src="/img/social/001-twitter.png" alt="logo-twitter" class="socialicon"></a>
-      </div>
-      <div class="col-sm-12">
-        <p id="footertext">
-          2017 Robot Academie | Alle Rechten Voorbehouden
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
